@@ -1,0 +1,73 @@
+body{
+    background: rgb(188, 0, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+.klik{
+    top: 40%;
+    left: 40%;
+    padding-top: 350px;
+    padding-left: 560px;
+    color: black;
+    font-size: 10px;
+}
+
+.click{
+    padding-top: 250px;
+    padding-left: 560px;
+}
+
+.clic{
+    padding-top: 0;
+    padding-left: 560px;
+}
+
+.clik{
+    padding-top: 0;
+    padding-left: 560px;
+}
+
+.klik{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.heart{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    transition: 1s;
+    background: rgb(240, 4, 4);
+    transform-origin: right bottom;
+    top: 40%;
+    left: 40%;
+    padding-left: 100px;
+}
+
+.heart:before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    transition: 2s;
+    background: rgb(245, 237, 237);
+    transform-origin: right bottom;
+    top: 0;
+    left: 0;
+    padding-left: 100px;
+}
+
+.heart:hover{
+    transform: rotate(45deg);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.heart:hover:before{
+    transform: rotate(450deg) translateY(100px);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: red;
+}
+
